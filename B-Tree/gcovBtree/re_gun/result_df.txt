@@ -1,0 +1,4 @@
+1. Insertion	2. Deletion
+3. Searching	4. Traversal
+5. Exit
+Enter your choice:5

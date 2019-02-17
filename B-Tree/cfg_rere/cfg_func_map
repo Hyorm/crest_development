@@ -1,0 +1,16 @@
+createNode 1
+addValToNode 3
+splitNode 15
+setValueInNode 34
+insertion 66
+copySuccessor 72
+removeVal 84
+doRightShift 96
+doLeftShift 108
+mergeNodes 119
+adjustNode 140
+delValFromNode 163
+deletion 195
+searching 205
+traversal 229
+main 243

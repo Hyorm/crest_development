@@ -1,0 +1,59 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "ko_KR.UTF-8",
+	LC_ADDRESS = "ko_KR.UTF-8",
+	LC_MONETARY = "ko_KR.UTF-8",
+	LC_NUMERIC = "ko_KR.UTF-8",
+	LC_TELEPHONE = "ko_KR.UTF-8",
+	LC_IDENTIFICATION = "ko_KR.UTF-8",
+	LC_MEASUREMENT = "ko_KR.UTF-8",
+	LC_CTYPE = "UTF-8",
+	LC_TIME = "ko_KR.UTF-8",
+	LC_NAME = "ko_KR.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+gcc -D_GNUCC -E -I/home/hyorm1226/Development/crest-0.1.2/bin/../include -DCIL=1 ./b_tree.c -o ./b_tree.i
+/home/hyorm1226/Development/crest-0.1.2/cil/bin/cilly.native --out ./b_tree.cil.c --doCrestInstrument ./b_tree.i
+./b_tree.c:318: Warning: Body of function main falls-through. Adding a return statement
+gcc -D_GNUCC -E -I/home/hyorm1226/Development/crest-0.1.2/bin/../include ./b_tree.cil.c -o ./b_tree.cil.i
+gcc -D_GNUCC -c -I/home/hyorm1226/Development/crest-0.1.2/bin/../include -o ./b_tree.o ./b_tree.cil.i
+./b_tree.c:317:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+         int val, ch, hyorm = 0, hyorm_flag = 0;
+ ^
+./b_tree.c:318:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+         while (1) {
+ ^
+./b_tree.c:319:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+                 printf("1. Insertion\t2. Deletion\n");
+ ^
+./b_tree.c:320:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+                 printf("3. Searching\t4. Traversal\n");
+ ^
+./b_tree.c:321:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+                 printf("5. Exit\nEnter your choice:");
+ ^
+./b_tree.c:322:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+   CREST_unsigned_int(ch);
+ ^
+./b_tree.c:323:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+                 //scanf("%d", &ch);
+ ^
+./b_tree.c:324:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+   printf("%d\n", ch%10);
+ ^
+./b_tree.c:325:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+   ch %= 10;
+ ^
+./b_tree.c:326:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+                 switch (ch) {
+ ^
+/home/hyorm1226/Development/crest-0.1.2/bin/../include/crest.h:199:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+ EXTERN void __CrestUInt(unsigned int* x) __SKIP;
+ ^
+gcc -D_GNUCC -o ./b_tree -I/home/hyorm1226/Development/crest-0.1.2/bin/../include ./b_tree.o -L/home/hyorm1226/Development/crest-0.1.2/bin/../lib -lcrest -lstdc++
+Read 100 branches.
+Read 293 nodes.
+Wrote 173 branch edges.

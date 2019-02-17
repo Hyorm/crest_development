@@ -1,0 +1,824 @@
+Iteration 0 (0s): covered 0 branches [0 reach funs, 0 reach branches].
+RESET
+Iteration 1 (0s): covered 31 branches [7 reach funs, 62 reach branches].
+Cfg solves: 0/0 (0 lucky [0 continued], 0 on 0's, 0 on others,0 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/0
+All SolveAlongCfg: 0/0  (0 all concrete, 0 no paths)
+    (sat failures: 0/0)  (prediction failures: 0) (recursions: 0)
+DoSearch(5, 0, 10000, 119)
+Iteration 2 (0s): covered 37 branches [8 reach funs, 64 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 1/2 (0 lucky [0 continued], 1 on 0's, 0 on others,1 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/0
+All SolveAlongCfg: 0/0  (0 all concrete, 0 no paths)
+    (sat failures: 0/0)  (prediction failures: 0) (recursions: 0)
+DoSearch(5, 0, 10000, 115)
+Iteration 3 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 2/3 (0 lucky [0 continued], 2 on 0's, 0 on others,1 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/0
+All SolveAlongCfg: 0/0  (0 all concrete, 0 no paths)
+    (sat failures: 0/0)  (prediction failures: 0) (recursions: 0)
+DoSearch(5, 0, 10000, 117)
+Iteration 4 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+SolveAlongCfg(101,1)
+SolveAlongCfg(102,0)
+Iteration 5 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+SolveAlongCfg(103,1)
+SolveAlongCfg(104,0)
+Iteration 6 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+SolveAlongCfg(22,2)
+Iteration 7 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+SolveAlongCfg(56,2)
+Iteration 8 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+SolveAlongCfg(85,2)
+SolveAlongCfg(86,1)
+Iteration 9 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+SolveAlongCfg(87,2)
+SolveAlongCfg(88,1)
+SolveAlongCfg(89,0)
+Iteration 10 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+SolveAlongCfg(20,3)
+Iteration 11 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+SolveAlongCfg(58,3)
+Iteration 12 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+SolveAlongCfg(44,4)
+Iteration 13 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+SolveAlongCfg(46,9999)
+Cfg solves: 2/18 (0 lucky [0 continued], 2 on 0's, 0 on others,6 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/10
+All SolveAlongCfg: 0/15  (14 all concrete, 1 no paths)
+    (sat failures: 0/0)  (prediction failures: 0) (recursions: 5)
+RESET
+Iteration 14 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+Cfg solves: 2/18 (0 lucky [0 continued], 2 on 0's, 0 on others,6 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/10
+All SolveAlongCfg: 0/15  (14 all concrete, 1 no paths)
+    (sat failures: 0/0)  (prediction failures: 0) (recursions: 5)
+DoSearch(5, 0, 10000, 36)
+Iteration 15 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 3/19 (0 lucky [0 continued], 3 on 0's, 0 on others,6 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/10
+All SolveAlongCfg: 0/15  (14 all concrete, 1 no paths)
+    (sat failures: 0/0)  (prediction failures: 0) (recursions: 5)
+DoSearch(5, 0, 10000, 34)
+Iteration 16 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+Found new branch by forcing at distance 1 (1).
+Found uncovered branches at distances: 2 3 4 5
+SolveAlongCfg(20,0)
+Cfg solves: 4/20 (1 lucky [1 continued], 3 on 0's, 0 on others,6 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/11
+All SolveAlongCfg: 0/16  (14 all concrete, 1 no paths)
+    (sat failures: 1/1)  (prediction failures: 0) (recursions: 5)
+DoSearch(5, 0, 10000, 38)
+Iteration 17 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+SolveAlongCfg(22,1)
+SolveAlongCfg(23,0)
+Iteration 18 (0s): covered 38 branches [8 reach funs, 64 reach branches].
+SolveAlongCfg(20,1)
+SolveAlongCfg(21,0)
+Cfg solves: 4/23 (1 lucky [1 continued], 3 on 0's, 0 on others,7 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/13
+All SolveAlongCfg: 0/20  (18 all concrete, 1 no paths)
+    (sat failures: 1/1)  (prediction failures: 0) (recursions: 7)
+RESET
+Iteration 19 (0s): covered 46 branches [9 reach funs, 66 reach branches].
+Cfg solves: 4/23 (1 lucky [1 continued], 3 on 0's, 0 on others,7 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/13
+All SolveAlongCfg: 0/20  (18 all concrete, 1 no paths)
+    (sat failures: 1/1)  (prediction failures: 0) (recursions: 7)
+DoSearch(5, 0, 10000, 71)
+Iteration 20 (0s): covered 48 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 5/25 (1 lucky [1 continued], 4 on 0's, 0 on others,8 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/13
+All SolveAlongCfg: 0/20  (18 all concrete, 1 no paths)
+    (sat failures: 1/1)  (prediction failures: 0) (recursions: 7)
+DoSearch(5, 0, 10000, 70)
+Iteration 21 (0s): covered 49 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 6/26 (1 lucky [1 continued], 5 on 0's, 0 on others,8 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/13
+All SolveAlongCfg: 0/20  (18 all concrete, 1 no paths)
+    (sat failures: 1/1)  (prediction failures: 0) (recursions: 7)
+DoSearch(5, 0, 10000, 72)
+Iteration 22 (0s): covered 49 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 7/27 (1 lucky [1 continued], 6 on 0's, 0 on others,8 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/13
+All SolveAlongCfg: 0/20  (18 all concrete, 1 no paths)
+    (sat failures: 1/1)  (prediction failures: 0) (recursions: 7)
+DoSearch(5, 0, 10000, 68)
+Iteration 23 (0s): covered 52 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 8/28 (1 lucky [1 continued], 7 on 0's, 0 on others,8 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/13
+All SolveAlongCfg: 0/20  (18 all concrete, 1 no paths)
+    (sat failures: 1/1)  (prediction failures: 0) (recursions: 7)
+DoSearch(5, 0, 10000, 73)
+Iteration 24 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 9/30 (1 lucky [1 continued], 8 on 0's, 0 on others,9 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/13
+All SolveAlongCfg: 0/20  (18 all concrete, 1 no paths)
+    (sat failures: 1/1)  (prediction failures: 0) (recursions: 7)
+DoSearch(5, 0, 10000, 62)
+Iteration 25 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 10/31 (1 lucky [1 continued], 9 on 0's, 0 on others,9 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/13
+All SolveAlongCfg: 0/20  (18 all concrete, 1 no paths)
+    (sat failures: 1/1)  (prediction failures: 0) (recursions: 7)
+DoSearch(5, 0, 10000, 73)
+Iteration 26 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(29,0)
+Iteration 27 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(15,0)
+Iteration 28 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(52,1)
+SolveAlongCfg(53,0)
+Iteration 29 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(56,1)
+SolveAlongCfg(57,0)
+Iteration 30 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(53,2)
+SolveAlongCfg(54,1)
+SolveAlongCfg(55,0)
+Iteration 31 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(54,1)
+SolveAlongCfg(55,0)
+Cfg solves: 10/37 (1 lucky [1 continued], 9 on 0's, 0 on others,10 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/18
+All SolveAlongCfg: 0/31  (26 all concrete, 1 no paths)
+    (sat failures: 3/4)  (prediction failures: 0) (recursions: 13)
+RESET
+Iteration 32 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+Cfg solves: 10/37 (1 lucky [1 continued], 9 on 0's, 0 on others,10 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/18
+All SolveAlongCfg: 0/31  (26 all concrete, 1 no paths)
+    (sat failures: 3/4)  (prediction failures: 0) (recursions: 13)
+DoSearch(5, 0, 10000, 175)
+Iteration 33 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 11/38 (1 lucky [1 continued], 10 on 0's, 0 on others,10 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/18
+All SolveAlongCfg: 0/31  (26 all concrete, 1 no paths)
+    (sat failures: 3/4)  (prediction failures: 0) (recursions: 13)
+DoSearch(5, 0, 10000, 185)
+Iteration 34 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 12/41 (1 lucky [1 continued], 11 on 0's, 0 on others,12 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/18
+All SolveAlongCfg: 0/31  (26 all concrete, 1 no paths)
+    (sat failures: 3/4)  (prediction failures: 0) (recursions: 13)
+DoSearch(5, 0, 10000, 177)
+Iteration 35 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 13/45 (1 lucky [1 continued], 12 on 0's, 0 on others,15 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/18
+All SolveAlongCfg: 0/31  (26 all concrete, 1 no paths)
+    (sat failures: 3/4)  (prediction failures: 0) (recursions: 13)
+DoSearch(5, 0, 10000, 156)
+Iteration 36 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(15,0)
+Iteration 37 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(98,1)
+SolveAlongCfg(99,0)
+Iteration 38 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(100,1)
+SolveAlongCfg(101,0)
+Iteration 39 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(69,2)
+Iteration 40 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(47,2)
+Iteration 41 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(81,3)
+Iteration 42 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(45,4)
+Iteration 43 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(71,9999)
+Cfg solves: 13/57 (1 lucky [1 continued], 12 on 0's, 0 on others,19 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/26
+All SolveAlongCfg: 0/41  (34 all concrete, 2 no paths)
+    (sat failures: 4/5)  (prediction failures: 0) (recursions: 15)
+RESET
+Iteration 44 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+Cfg solves: 13/57 (1 lucky [1 continued], 12 on 0's, 0 on others,19 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/26
+All SolveAlongCfg: 0/41  (34 all concrete, 2 no paths)
+    (sat failures: 4/5)  (prediction failures: 0) (recursions: 15)
+DoSearch(5, 0, 10000, 14)
+Cfg solves: 13/57 (1 lucky [1 continued], 12 on 0's, 0 on others,19 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/26
+All SolveAlongCfg: 0/41  (34 all concrete, 2 no paths)
+    (sat failures: 4/5)  (prediction failures: 0) (recursions: 15)
+RESET
+Iteration 45 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+Cfg solves: 13/57 (1 lucky [1 continued], 12 on 0's, 0 on others,19 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/26
+All SolveAlongCfg: 0/41  (34 all concrete, 2 no paths)
+    (sat failures: 4/5)  (prediction failures: 0) (recursions: 15)
+DoSearch(5, 0, 10000, 86)
+Iteration 46 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 14/58 (1 lucky [1 continued], 13 on 0's, 0 on others,19 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/26
+All SolveAlongCfg: 0/41  (34 all concrete, 2 no paths)
+    (sat failures: 4/5)  (prediction failures: 0) (recursions: 15)
+DoSearch(5, 0, 10000, 90)
+Iteration 47 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 15/59 (1 lucky [1 continued], 14 on 0's, 0 on others,19 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/26
+All SolveAlongCfg: 0/41  (34 all concrete, 2 no paths)
+    (sat failures: 4/5)  (prediction failures: 0) (recursions: 15)
+DoSearch(5, 0, 10000, 88)
+Iteration 48 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(38,0)
+Iteration 49 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(74,1)
+SolveAlongCfg(75,0)
+Iteration 50 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(72,1)
+SolveAlongCfg(73,0)
+Cfg solves: 15/63 (1 lucky [1 continued], 14 on 0's, 0 on others,20 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/29
+All SolveAlongCfg: 0/46  (38 all concrete, 2 no paths)
+    (sat failures: 5/6)  (prediction failures: 0) (recursions: 17)
+RESET
+Iteration 51 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+Cfg solves: 15/63 (1 lucky [1 continued], 14 on 0's, 0 on others,20 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/29
+All SolveAlongCfg: 0/46  (38 all concrete, 2 no paths)
+    (sat failures: 5/6)  (prediction failures: 0) (recursions: 17)
+DoSearch(5, 0, 10000, 32)
+Iteration 52 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 16/64 (1 lucky [1 continued], 15 on 0's, 0 on others,20 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/29
+All SolveAlongCfg: 0/46  (38 all concrete, 2 no paths)
+    (sat failures: 5/6)  (prediction failures: 0) (recursions: 17)
+DoSearch(5, 0, 10000, 25)
+Iteration 53 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 17/66 (1 lucky [1 continued], 16 on 0's, 0 on others,21 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/29
+All SolveAlongCfg: 0/46  (38 all concrete, 2 no paths)
+    (sat failures: 5/6)  (prediction failures: 0) (recursions: 17)
+DoSearch(5, 0, 10000, 33)
+Iteration 54 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(14,0)
+Iteration 55 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(16,9999)
+Cfg solves: 17/69 (1 lucky [1 continued], 16 on 0's, 0 on others,22 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/31
+All SolveAlongCfg: 0/48  (39 all concrete, 3 no paths)
+    (sat failures: 5/6)  (prediction failures: 0) (recursions: 17)
+RESET
+Iteration 56 (0s): covered 53 branches [9 reach funs, 66 reach branches].
+Cfg solves: 17/69 (1 lucky [1 continued], 16 on 0's, 0 on others,22 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/31
+All SolveAlongCfg: 0/48  (39 all concrete, 3 no paths)
+    (sat failures: 5/6)  (prediction failures: 0) (recursions: 17)
+DoSearch(5, 0, 10000, 177)
+Iteration 57 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 18/70 (1 lucky [1 continued], 17 on 0's, 0 on others,22 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/31
+All SolveAlongCfg: 0/48  (39 all concrete, 3 no paths)
+    (sat failures: 5/6)  (prediction failures: 0) (recursions: 17)
+DoSearch(5, 0, 10000, 169)
+Iteration 58 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 19/71 (1 lucky [1 continued], 18 on 0's, 0 on others,22 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/31
+All SolveAlongCfg: 0/48  (39 all concrete, 3 no paths)
+    (sat failures: 5/6)  (prediction failures: 0) (recursions: 17)
+DoSearch(5, 0, 10000, 166)
+Iteration 59 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 20/72 (1 lucky [1 continued], 19 on 0's, 0 on others,22 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/31
+All SolveAlongCfg: 0/48  (39 all concrete, 3 no paths)
+    (sat failures: 5/6)  (prediction failures: 0) (recursions: 17)
+DoSearch(5, 0, 10000, 159)
+Iteration 60 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 21/73 (1 lucky [1 continued], 20 on 0's, 0 on others,22 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/31
+All SolveAlongCfg: 0/48  (39 all concrete, 3 no paths)
+    (sat failures: 5/6)  (prediction failures: 0) (recursions: 17)
+DoSearch(5, 0, 10000, 145)
+Iteration 61 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(107,0)
+Iteration 62 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(109,0)
+Iteration 63 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(87,1)
+SolveAlongCfg(88,0)
+Iteration 64 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(64,1)
+SolveAlongCfg(65,0)
+Iteration 65 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(25,1)
+SolveAlongCfg(26,0)
+Iteration 66 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 2 (3).
+Found uncovered branches at distances:
+SolveAlongCfg(23,2)
+SolveAlongCfg(24,1)
+Cfg solves: 22/84 (2 lucky [2 continued], 20 on 0's, 0 on others,27 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/37
+All SolveAlongCfg: 0/58  (49 all concrete, 3 no paths)
+    (sat failures: 5/6)  (prediction failures: 0) (recursions: 21)
+DoSearch(5, 0, 10000, 159)
+Iteration 67 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(56,0)
+Iteration 68 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(123,0)
+Iteration 69 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(121,0)
+Iteration 70 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(23,1)
+Iteration 71 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(103,1)
+SolveAlongCfg(104,0)
+Iteration 72 (0s): covered 55 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(74,1)
+SolveAlongCfg(75,0)
+Iteration 73 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 2 (2).
+Found uncovered branches at distances:
+SolveAlongCfg(76,1)
+SolveAlongCfg(77,0)
+Cfg solves: 23/95 (3 lucky [3 continued], 20 on 0's, 0 on others,31 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/44
+All SolveAlongCfg: 0/68  (57 all concrete, 3 no paths)
+    (sat failures: 7/8)  (prediction failures: 0) (recursions: 24)
+DoSearch(5, 0, 10000, 165)
+Iteration 74 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(135,0)
+Iteration 75 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+Found new branch by forcing at distance 1 (1).
+Found uncovered branches at distances: 6
+SolveAlongCfg(102,0)
+Cfg solves: 24/98 (4 lucky [4 continued], 20 on 0's, 0 on others,32 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/46
+All SolveAlongCfg: 0/70  (59 all concrete, 3 no paths)
+    (sat failures: 7/8)  (prediction failures: 0) (recursions: 24)
+DoSearch(5, 0, 10000, 175)
+Iteration 76 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(75,0)
+Iteration 77 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(23,1)
+Iteration 78 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(101,1)
+SolveAlongCfg(102,0)
+Iteration 79 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(145,1)
+Iteration 80 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(105,1)
+SolveAlongCfg(106,0)
+Iteration 81 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(126,1)
+Iteration 82 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(76,1)
+SolveAlongCfg(77,0)
+Iteration 83 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(102,2)
+SolveAlongCfg(103,1)
+SolveAlongCfg(104,0)
+Iteration 84 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(103,1)
+SolveAlongCfg(104,0)
+Iteration 85 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(74,2)
+SolveAlongCfg(75,1)
+Iteration 86 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(56,2)
+SolveAlongCfg(57,1)
+Iteration 87 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(58,0)
+Iteration 88 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(90,3)
+Iteration 89 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(94,3)
+Iteration 90 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(91,4)
+Iteration 91 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(92,3)
+Iteration 92 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(144,4)
+Iteration 93 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+SolveAlongCfg(146,9999)
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+RESET
+Iteration 94 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+DoSearch(5, 0, 10000, 13)
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+RESET
+Iteration 95 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+DoSearch(5, 0, 10000, 20)
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+RESET
+Iteration 96 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+DoSearch(5, 0, 10000, 14)
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+RESET
+Iteration 97 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+DoSearch(5, 0, 10000, 37)
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+RESET
+Iteration 98 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+DoSearch(5, 0, 10000, 23)
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+RESET
+Iteration 99 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+DoSearch(5, 0, 10000, 13)
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+RESET
+Iteration 100 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+DoSearch(5, 0, 10000, 6)
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+RESET
+Iteration 101 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+DoSearch(5, 0, 10000, 13)
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+RESET
+Iteration 102 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+DoSearch(5, 0, 10000, 46)
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+RESET
+Iteration 103 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+DoSearch(5, 0, 10000, 6)
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+RESET
+Iteration 104 (0s): covered 57 branches [9 reach funs, 66 reach branches].
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+DoSearch(5, 0, 10000, 6)
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+RESET
+Iteration 105 (0s): covered 62 branches [10 reach funs, 72 reach branches].
+Cfg solves: 24/115 (4 lucky [4 continued], 20 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+DoSearch(5, 0, 10000, 238)
+Iteration 106 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 25/116 (4 lucky [4 continued], 21 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+DoSearch(5, 0, 10000, 234)
+Iteration 107 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 26/117 (4 lucky [4 continued], 22 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+DoSearch(5, 0, 10000, 200)
+Iteration 108 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 27/118 (4 lucky [4 continued], 23 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/61
+All SolveAlongCfg: 0/96  (78 all concrete, 4 no paths)
+    (sat failures: 10/14)  (prediction failures: 0) (recursions: 35)
+DoSearch(5, 0, 10000, 230)
+Iteration 109 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(59,0)
+Iteration 110 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(60,0)
+Iteration 111 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(105,1)
+SolveAlongCfg(106,0)
+Iteration 112 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(24,1)
+Iteration 113 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(114,2)
+SolveAlongCfg(115,1)
+Iteration 114 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(115,1)
+Iteration 115 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(116,0)
+Iteration 116 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(41,3)
+SolveAlongCfg(42,2)
+SolveAlongCfg(43,1)
+Iteration 117 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(42,2)
+Iteration 118 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(43,1)
+Iteration 119 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(61,9999)
+Cfg solves: 27/125 (4 lucky [4 continued], 23 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/68
+All SolveAlongCfg: 0/111  (85 all concrete, 5 no paths)
+    (sat failures: 12/20)  (prediction failures: 0) (recursions: 43)
+RESET
+Iteration 120 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+Cfg solves: 27/125 (4 lucky [4 continued], 23 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/68
+All SolveAlongCfg: 0/111  (85 all concrete, 5 no paths)
+    (sat failures: 12/20)  (prediction failures: 0) (recursions: 43)
+DoSearch(5, 0, 10000, 6)
+Cfg solves: 27/125 (4 lucky [4 continued], 23 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/68
+All SolveAlongCfg: 0/111  (85 all concrete, 5 no paths)
+    (sat failures: 12/20)  (prediction failures: 0) (recursions: 43)
+RESET
+Iteration 121 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+Cfg solves: 27/125 (4 lucky [4 continued], 23 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/68
+All SolveAlongCfg: 0/111  (85 all concrete, 5 no paths)
+    (sat failures: 12/20)  (prediction failures: 0) (recursions: 43)
+DoSearch(5, 0, 10000, 61)
+Iteration 122 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 28/126 (4 lucky [4 continued], 24 on 0's, 0 on others,34 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/68
+All SolveAlongCfg: 0/111  (85 all concrete, 5 no paths)
+    (sat failures: 12/20)  (prediction failures: 0) (recursions: 43)
+DoSearch(5, 0, 10000, 60)
+Iteration 123 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 29/128 (4 lucky [4 continued], 25 on 0's, 0 on others,35 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/68
+All SolveAlongCfg: 0/111  (85 all concrete, 5 no paths)
+    (sat failures: 12/20)  (prediction failures: 0) (recursions: 43)
+DoSearch(5, 0, 10000, 59)
+Iteration 124 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 30/129 (4 lucky [4 continued], 26 on 0's, 0 on others,35 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/68
+All SolveAlongCfg: 0/111  (85 all concrete, 5 no paths)
+    (sat failures: 12/20)  (prediction failures: 0) (recursions: 43)
+DoSearch(5, 0, 10000, 58)
+Iteration 125 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+Found new branch by forcing at distance 1 (1).
+Found uncovered branches at distances: 2
+SolveAlongCfg(30,0)
+Cfg solves: 31/130 (5 lucky [5 continued], 26 on 0's, 0 on others,35 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/69
+All SolveAlongCfg: 0/112  (85 all concrete, 5 no paths)
+    (sat failures: 13/21)  (prediction failures: 0) (recursions: 43)
+DoSearch(5, 0, 10000, 50)
+Iteration 126 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(32,0)
+Iteration 127 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(30,0)
+Iteration 128 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(43,3)
+Iteration 129 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(41,3)
+Cfg solves: 31/136 (5 lucky [5 continued], 26 on 0's, 0 on others,37 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/73
+All SolveAlongCfg: 0/116  (89 all concrete, 5 no paths)
+    (sat failures: 13/21)  (prediction failures: 0) (recursions: 43)
+RESET
+Iteration 130 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+Cfg solves: 31/136 (5 lucky [5 continued], 26 on 0's, 0 on others,37 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/73
+All SolveAlongCfg: 0/116  (89 all concrete, 5 no paths)
+    (sat failures: 13/21)  (prediction failures: 0) (recursions: 43)
+DoSearch(5, 0, 10000, 32)
+Iteration 131 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 32/137 (5 lucky [5 continued], 27 on 0's, 0 on others,37 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/73
+All SolveAlongCfg: 0/116  (89 all concrete, 5 no paths)
+    (sat failures: 13/21)  (prediction failures: 0) (recursions: 43)
+DoSearch(5, 0, 10000, 31)
+Iteration 132 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 33/139 (5 lucky [5 continued], 28 on 0's, 0 on others,38 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/73
+All SolveAlongCfg: 0/116  (89 all concrete, 5 no paths)
+    (sat failures: 13/21)  (prediction failures: 0) (recursions: 43)
+DoSearch(5, 0, 10000, 34)
+Iteration 133 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(22,2)
+Iteration 134 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(24,9999)
+Cfg solves: 33/142 (5 lucky [5 continued], 28 on 0's, 0 on others,39 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/75
+All SolveAlongCfg: 0/118  (90 all concrete, 6 no paths)
+    (sat failures: 13/21)  (prediction failures: 0) (recursions: 43)
+RESET
+Iteration 135 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+Cfg solves: 33/142 (5 lucky [5 continued], 28 on 0's, 0 on others,39 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/75
+All SolveAlongCfg: 0/118  (90 all concrete, 6 no paths)
+    (sat failures: 13/21)  (prediction failures: 0) (recursions: 43)
+DoSearch(5, 0, 10000, 55)
+Cfg solves: 33/142 (5 lucky [5 continued], 28 on 0's, 0 on others,39 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/75
+All SolveAlongCfg: 0/118  (90 all concrete, 6 no paths)
+    (sat failures: 13/21)  (prediction failures: 0) (recursions: 43)
+RESET
+Iteration 136 (0s): covered 64 branches [10 reach funs, 72 reach branches].
+Cfg solves: 33/142 (5 lucky [5 continued], 28 on 0's, 0 on others,39 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/75
+All SolveAlongCfg: 0/118  (90 all concrete, 6 no paths)
+    (sat failures: 13/21)  (prediction failures: 0) (recursions: 43)
+DoSearch(5, 0, 10000, 76)
+Iteration 137 (1s): covered 64 branches [10 reach funs, 72 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 34/143 (5 lucky [5 continued], 29 on 0's, 0 on others,39 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/75
+All SolveAlongCfg: 0/118  (90 all concrete, 6 no paths)
+    (sat failures: 13/21)  (prediction failures: 0) (recursions: 43)
+DoSearch(5, 0, 10000, 65)
+Iteration 138 (1s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(46,0)
+Iteration 139 (1s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(23,0)
+Iteration 140 (1s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(21,1)
+SolveAlongCfg(25,0)
+Iteration 141 (1s): covered 64 branches [10 reach funs, 72 reach branches].
+SolveAlongCfg(48,9999)
+Cfg solves: 34/149 (5 lucky [5 continued], 29 on 0's, 0 on others,41 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/79
+All SolveAlongCfg: 0/123  (94 all concrete, 7 no paths)
+    (sat failures: 13/21)  (prediction failures: 0) (recursions: 44)
+RESET
+Iteration 142 (1s): covered 67 branches [10 reach funs, 72 reach branches].
+Cfg solves: 34/149 (5 lucky [5 continued], 29 on 0's, 0 on others,41 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/79
+All SolveAlongCfg: 0/123  (94 all concrete, 7 no paths)
+    (sat failures: 13/21)  (prediction failures: 0) (recursions: 44)
+DoSearch(5, 0, 10000, 413)
+Iteration 143 (1s): covered 67 branches [10 reach funs, 72 reach branches].
+Found new branch by forcing at distance 0 (0).
+Cfg solves: 35/150 (5 lucky [5 continued], 30 on 0's, 0 on others,41 unsats, 0 prediction failures)
+    (recursive successes: 0)
+Top-level SolveAlongCfg: 0/79
+All SolveAlongCfg: 0/123  (94 all concrete, 7 no paths)
+    (sat failures: 13/21)  (prediction failures: 0) (recursions: 44)
+DoSearch(5, 0, 10000, 413)

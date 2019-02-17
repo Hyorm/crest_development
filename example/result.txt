@@ -1,0 +1,59 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "ko_KR.UTF-8",
+	LC_ADDRESS = "ko_KR.UTF-8",
+	LC_MONETARY = "ko_KR.UTF-8",
+	LC_NUMERIC = "ko_KR.UTF-8",
+	LC_TELEPHONE = "ko_KR.UTF-8",
+	LC_IDENTIFICATION = "ko_KR.UTF-8",
+	LC_MEASUREMENT = "ko_KR.UTF-8",
+	LC_CTYPE = "UTF-8",
+	LC_TIME = "ko_KR.UTF-8",
+	LC_NAME = "ko_KR.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+gcc -D_GNUCC -E -I/home/hyorm1226/Development/crest-0.1.2/bin/../include -DCIL=1 ./example_Pointer.c -o ./example_Pointer.i
+/home/hyorm1226/Development/crest-0.1.2/cil/bin/cilly.native --out ./example_Pointer.cil.c --doCrestInstrument ./example_Pointer.i
+./example_Pointer.c:26: Warning: Body of function main falls-through. Adding a return statement
+gcc -D_GNUCC -E -I/home/hyorm1226/Development/crest-0.1.2/bin/../include ./example_Pointer.cil.c -o ./example_Pointer.cil.i
+gcc -D_GNUCC -c -I/home/hyorm1226/Development/crest-0.1.2/bin/../include -o ./example_Pointer.o ./example_Pointer.cil.i
+./example_Pointer.c:5:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+ 
+ ^
+./example_Pointer.c:6:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+  int** arr_2d;
+ ^
+./example_Pointer.c:7:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+  int num = 10;
+ ^
+./example_Pointer.c:8:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+ 
+ ^
+./example_Pointer.c:9:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+  arr_2d = (int**) malloc ( sizeof(int*) * num );
+ ^
+./example_Pointer.c:10:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+ 
+ ^
+./example_Pointer.c:11:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+  for(int i = 0; i < num; i++){
+ ^
+./example_Pointer.c:12:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+   arr_2d[i] = (int*)malloc(sizeof(int)*num);
+ ^
+./example_Pointer.c:13:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+  }
+ ^
+./example_Pointer.c:14:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+ 
+ ^
+/home/hyorm1226/Development/crest-0.1.2/bin/../include/crest.h:202:1: warning: '__crest_skip__' attribute directive ignored [-Wattributes]
+ EXTERN void __CrestInt(int* x) __SKIP;
+ ^
+gcc -D_GNUCC -o ./example_Pointer -I/home/hyorm1226/Development/crest-0.1.2/bin/../include ./example_Pointer.o -L/home/hyorm1226/Development/crest-0.1.2/bin/../lib -lcrest -lstdc++
+Read 10 branches.
+Read 49 nodes.
+Wrote 15 branch edges.

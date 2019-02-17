@@ -1,0 +1,4 @@
+Iteration 0 (0s): covered 0 branches [0 reach funs, 0 reach branches].
+Iteration 1 (0s): covered 24 branches [6 reach funs, 42 reach branches].
+Iteration 2 (0s): covered 26 branches [6 reach funs, 42 reach branches].
+Iteration 3 (0s): covered 27 branches [6 reach funs, 42 reach branches].
